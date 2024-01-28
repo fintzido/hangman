@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007B9594267FA31700B46AAD /* Vibrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007B9593267FA31700B46AAD /* Vibrations.swift */; };
+		007B9597267FB8AC00B46AAD /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007B9596267FB8AC00B46AAD /* GameKit.framework */; };
+		00C392E3268129E4004F29A6 /* GameCenterID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C392E2268129E4004F29A6 /* GameCenterID.swift */; };
+		1428EA4224885414003A0D7F /* rainyhearts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1428EA4124885413003A0D7F /* rainyhearts.ttf */; };
+		1434DB582487172100666428 /* RetroGaming.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1434DB572487172100666428 /* RetroGaming.ttf */; };
+		14411B95243F0D670011B085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14411B94243F0D670011B085 /* AppDelegate.swift */; };
+		14411B97243F0D670011B085 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14411B96243F0D670011B085 /* SceneDelegate.swift */; };
+		14411B99243F0D670011B085 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14411B98243F0D670011B085 /* GameViewController.swift */; };
+		14411B9C243F0D670011B085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14411B9A243F0D670011B085 /* Main.storyboard */; };
+		14411B9E243F0D6F0011B085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14411B9D243F0D6F0011B085 /* Assets.xcassets */; };
+		14411BA1243F0D6F0011B085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14411B9F243F0D6F0011B085 /* LaunchScreen.storyboard */; };
+		1451FC2625A8909700FB7A42 /* GameDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1451FC2525A8909700FB7A42 /* GameDataManager.swift */; };
+		1454E6F6244EEC0A00B5F2BD /* HowToPlayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1454E6F5244EEC0A00B5F2BD /* HowToPlayTableViewController.swift */; };
+		1454E6F824503B7600B5F2BD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1454E6F724503B7600B5F2BD /* SettingsViewController.swift */; };
+		146F681B244A184200E02E6D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F681A244A184200E02E6D /* WelcomeViewController.swift */; };
+		146F681D244A1C4F00E02E6D /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F681C244A1C4F00E02E6D /* ViewExtensions.swift */; };
+		1473F3F22454C4870048A423 /* RulesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1473F3F12454C4870048A423 /* RulesData.swift */; };
+		147AD45F24525F6400CD6736 /* backgroundmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 147AD45E24525F6400CD6736 /* backgroundmusic.mp3 */; };
+		1482E7622441C4B50032B210 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1482E7612441C4B40032B210 /* words.txt */; };
+		1486FC9D2449B6CF003FB3B5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486FC9C2449B6CF003FB3B5 /* Constants.swift */; };
+		149DC72E246B435300803063 /* game-won.wav in Resources */ = {isa = PBXBuildFile; fileRef = 149DC72B246B435300803063 /* game-won.wav */; };
+		149DC72F246B435300803063 /* wrong-answer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 149DC72C246B435300803063 /* wrong-answer.wav */; };
+		149DC730246B435300803063 /* correct-answer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 149DC72D246B435300803063 /* correct-answer.wav */; };
+		149DC732246B454600803063 /* button-pressed.wav in Resources */ = {isa = PBXBuildFile; fileRef = 149DC731246B454600803063 /* button-pressed.wav */; };
+		14DBFDA024517D5800ECDD2D /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DBFD9F24517D5800ECDD2D /* MusicPlayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		007B9593267FA31700B46AAD /* Vibrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibrations.swift; sourceTree = "<group>"; };
+		007B9596267FB8AC00B46AAD /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		00C392E2268129E4004F29A6 /* GameCenterID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterID.swift; sourceTree = "<group>"; };
+		1428EA4124885413003A0D7F /* rainyhearts.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rainyhearts.ttf; sourceTree = "<group>"; };
+		1434DB572487172100666428 /* RetroGaming.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RetroGaming.ttf; sourceTree = "<group>"; };
+		14411B91243F0D670011B085 /* Hangman Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hangman Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14411B94243F0D670011B085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14411B96243F0D670011B085 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		14411B98243F0D670011B085 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		14411B9B243F0D670011B085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14411B9D243F0D6F0011B085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14411BA0243F0D6F0011B085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14411BA2243F0D6F0011B085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1451FC2525A8909700FB7A42 /* GameDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDataManager.swift; sourceTree = "<group>"; };
+		1454E6F5244EEC0A00B5F2BD /* HowToPlayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayTableViewController.swift; sourceTree = "<group>"; };
+		1454E6F724503B7600B5F2BD /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		146F681A244A184200E02E6D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		146F681C244A1C4F00E02E6D /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		1473F3F12454C4870048A423 /* RulesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesData.swift; sourceTree = "<group>"; };
+		147AD45E24525F6400CD6736 /* backgroundmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundmusic.mp3; sourceTree = "<group>"; };
+		1482E7612441C4B40032B210 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		1486FC9C2449B6CF003FB3B5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		149DC72B246B435300803063 /* game-won.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "game-won.wav"; sourceTree = "<group>"; };
+		149DC72C246B435300803063 /* wrong-answer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "wrong-answer.wav"; sourceTree = "<group>"; };
+		149DC72D246B435300803063 /* correct-answer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "correct-answer.wav"; sourceTree = "<group>"; };
+		149DC731246B454600803063 /* button-pressed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "button-pressed.wav"; sourceTree = "<group>"; };
+		14DBFD9F24517D5800ECDD2D /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14411B8E243F0D670011B085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007B9597267FB8AC00B46AAD /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		007B9595267FB8AC00B46AAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				007B9596267FB8AC00B46AAD /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14181A00245861080074E538 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				14DBFD9F24517D5800ECDD2D /* MusicPlayer.swift */,
+				146F681C244A1C4F00E02E6D /* ViewExtensions.swift */,
+				007B9593267FA31700B46AAD /* Vibrations.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1434DB56248716FC00666428 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1434DB572487172100666428 /* RetroGaming.ttf */,
+				1428EA4124885413003A0D7F /* rainyhearts.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		14411B88243F0D670011B085 = {
+			isa = PBXGroup;
+			children = (
+				14411B93243F0D670011B085 /* Hangman Game */,
+				14411B92243F0D670011B085 /* Products */,
+				007B9595267FB8AC00B46AAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14411B92243F0D670011B085 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14411B91243F0D670011B085 /* Hangman Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14411B93243F0D670011B085 /* Hangman Game */ = {
+			isa = PBXGroup;
+			children = (
+				14F902782446FB10008F0579 /* Model */,
+				14F902772446FB00008F0579 /* View */,
+				14F902762446FAE6008F0579 /* Controller */,
+				1466026025A92F5300D60097 /* Config */,
+				14181A00245861080074E538 /* Extensions */,
+				1466025E25A92F1400D60097 /* Helpers */,
+				14411B9D243F0D6F0011B085 /* Assets.xcassets */,
+				14411BA2243F0D6F0011B085 /* Info.plist */,
+			);
+			path = "Hangman Game";
+			sourceTree = "<group>";
+		};
+		1466025E25A92F1400D60097 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1434DB56248716FC00666428 /* Fonts */,
+				1466025F25A92F2300D60097 /* Audio */,
+				1486FC9C2449B6CF003FB3B5 /* Constants.swift */,
+				147AD45E24525F6400CD6736 /* backgroundmusic.mp3 */,
+				00C392E2268129E4004F29A6 /* GameCenterID.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1466025F25A92F2300D60097 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				149DC72D246B435300803063 /* correct-answer.wav */,
+				149DC72B246B435300803063 /* game-won.wav */,
+				149DC72C246B435300803063 /* wrong-answer.wav */,
+				149DC731246B454600803063 /* button-pressed.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		1466026025A92F5300D60097 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				14411B94243F0D670011B085 /* AppDelegate.swift */,
+				14411B96243F0D670011B085 /* SceneDelegate.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		14F902762446FAE6008F0579 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				146F681A244A184200E02E6D /* WelcomeViewController.swift */,
+				14411B98243F0D670011B085 /* GameViewController.swift */,
+				1454E6F5244EEC0A00B5F2BD /* HowToPlayTableViewController.swift */,
+				1454E6F724503B7600B5F2BD /* SettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14F902772446FB00008F0579 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14411B9A243F0D670011B085 /* Main.storyboard */,
+				14411B9F243F0D6F0011B085 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14F902782446FB10008F0579 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1473F3F12454C4870048A423 /* RulesData.swift */,
+				1482E7612441C4B40032B210 /* words.txt */,
+				1451FC2525A8909700FB7A42 /* GameDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14411B90243F0D670011B085 /* Hangman Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14411BA5243F0D6F0011B085 /* Build configuration list for PBXNativeTarget "Hangman Game" */;
+			buildPhases = (
+				14411B8D243F0D670011B085 /* Sources */,
+				14411B8E243F0D670011B085 /* Frameworks */,
+				14411B8F243F0D670011B085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hangman Game";
+			productName = "Hangman Game";
+			productReference = 14411B91243F0D670011B085 /* Hangman Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14411B89243F0D670011B085 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Ben Clarke";
+				TargetAttributes = {
+					14411B90243F0D670011B085 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 14411B8C243F0D670011B085 /* Build configuration list for PBXProject "Hangman Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14411B88243F0D670011B085;
+			productRefGroup = 14411B92243F0D670011B085 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14411B90243F0D670011B085 /* Hangman Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14411B8F243F0D670011B085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14411BA1243F0D6F0011B085 /* LaunchScreen.storyboard in Resources */,
+				14411B9E243F0D6F0011B085 /* Assets.xcassets in Resources */,
+				1482E7622441C4B50032B210 /* words.txt in Resources */,
+				14411B9C243F0D670011B085 /* Main.storyboard in Resources */,
+				147AD45F24525F6400CD6736 /* backgroundmusic.mp3 in Resources */,
+				1434DB582487172100666428 /* RetroGaming.ttf in Resources */,
+				149DC732246B454600803063 /* button-pressed.wav in Resources */,
+				149DC72E246B435300803063 /* game-won.wav in Resources */,
+				1428EA4224885414003A0D7F /* rainyhearts.ttf in Resources */,
+				149DC72F246B435300803063 /* wrong-answer.wav in Resources */,
+				149DC730246B435300803063 /* correct-answer.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14411B8D243F0D670011B085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14411B99243F0D670011B085 /* GameViewController.swift in Sources */,
+				146F681B244A184200E02E6D /* WelcomeViewController.swift in Sources */,
+				14DBFDA024517D5800ECDD2D /* MusicPlayer.swift in Sources */,
+				00C392E3268129E4004F29A6 /* GameCenterID.swift in Sources */,
+				1451FC2625A8909700FB7A42 /* GameDataManager.swift in Sources */,
+				007B9594267FA31700B46AAD /* Vibrations.swift in Sources */,
+				14411B95243F0D670011B085 /* AppDelegate.swift in Sources */,
+				14411B97243F0D670011B085 /* SceneDelegate.swift in Sources */,
+				146F681D244A1C4F00E02E6D /* ViewExtensions.swift in Sources */,
+				1454E6F6244EEC0A00B5F2BD /* HowToPlayTableViewController.swift in Sources */,
+				1486FC9D2449B6CF003FB3B5 /* Constants.swift in Sources */,
+				1454E6F824503B7600B5F2BD /* SettingsViewController.swift in Sources */,
+				1473F3F22454C4870048A423 /* RulesData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14411B9A243F0D670011B085 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14411B9B243F0D670011B085 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14411B9F243F0D6F0011B085 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14411BA0243F0D6F0011B085 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14411BA3243F0D6F0011B085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14411BA4243F0D6F0011B085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14411BA6243F0D6F0011B085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.2;
+				DEVELOPMENT_TEAM = CQLYB77FAP;
+				INFOPLIST_FILE = "Hangman Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vikingskullapps.Hangman-Word-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		14411BA7243F0D6F0011B085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.2;
+				DEVELOPMENT_TEAM = CQLYB77FAP;
+				INFOPLIST_FILE = "Hangman Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vikingskullapps.Hangman-Word-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14411B8C243F0D670011B085 /* Build configuration list for PBXProject "Hangman Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14411BA3243F0D6F0011B085 /* Debug */,
+				14411BA4243F0D6F0011B085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14411BA5243F0D6F0011B085 /* Build configuration list for PBXNativeTarget "Hangman Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14411BA6243F0D6F0011B085 /* Debug */,
+				14411BA7243F0D6F0011B085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14411B89243F0D670011B085 /* Project object */;
+}
